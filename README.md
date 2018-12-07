@@ -2,6 +2,7 @@
 Code for the paper ["Investigating the effect of residual and highway connections in speech enhancement models"](https://openreview.net/forum?id=rkzeXBDos7)
 
 For generating the dataset: 
+
     - Download the [IEEE dataset](https://www.crcpress.com/downloads/K14513/K14513_CD_Files.zip) and save it to data/IEEE_dataset. Copy sentence lists 01 to 67 to IEEE_dataset/train and 68 to 72 to IEEE_dataset/test. 
     - Download the [DEMAND](https://zenodo.org/record/1227121) and save it to data/DEMAND.
     - Run the script gen_noisy_dataset.py.
